@@ -9,16 +9,18 @@
         content="Cursor is the best way to code with AI. Build software faster in an editor designed for pair-programming with AI." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+
     <nav class="navbar" id="navbar">
         <div class="nav-inner">
             <a href="#" class="nav-logo">
-                <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 2L2 9.5V22.5L16 30L30 22.5V9.5L16 2Z" fill="white" stroke="white" stroke-width="0.5" />
                     <path d="M16 2L2 9.5L16 17L30 9.5L16 2Z" fill="#1a1a1a" opacity="0.3" />
                 </svg>
@@ -34,15 +36,18 @@
                 <a href="#" class="btn-signin">Sign in</a>
                 <a href="#" class="btn-download-nav">Download</a>
             </div>
+            <button class="nav-hamburger" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
+
     <section class="hero">
         <div class="hero-inner">
             <h1 class="hero-title">Built to make you<br />extraordinarily productive,<br />Cursor is the best
                 way<br />to code with AI.</h1>
-            <a href="#" class="btn-download-hero">Download for Windows ⬇</a>
+            <a href="#" class="btn-download-hero">Download for Windows ↓</a>
         </div>
-
         <div class="editor-preview-wrap">
             <div class="editor-window">
                 <div class="editor-chrome">
@@ -53,7 +58,6 @@
                     </div>
                     <span class="editor-title-bar">Cursor</span>
                 </div>
-
                 <div class="editor-body">
                     <div class="ed-sidebar">
                         <div class="ed-section-label">IN PROGRESS 1</div>
@@ -104,31 +108,21 @@
                             </div>
                         </div>
                     </div>
-
-                                        <div class="ed-chat">
+                    <div class="ed-chat">
                         <div class="ed-chat-header">Plan Mission Control</div>
-                        <div class="ed-user-msg">
-                            let's build a mission control interface, similar to the exposé-style window manager on macOS
-                        </div>
+                        <div class="ed-user-msg">let's build a mission control interface, similar to the exposé-style
+                            window manager on macOS</div>
                         <div class="ed-status-line"><span class="status-dot"></span>Thought 4s</div>
                         <div class="ed-action">Read <span class="link-text">AppManager.tsx</span></div>
                         <div class="ed-action">Searched <span class="link-text">exposé patterns</span></div>
-                        <div class="ed-file-chip">
-                            <span class="file-icon">📄</span>
-                            <span class="file-name">feature-prd.md</span>
-                            <span class="file-badge">+68</span>
-                        </div>
-                        <div class="ed-response-text">
-                            Drafted implementation steps in <span class="link-text">feature-prd.md</span>.<br />
-                            A few quick questions before I start building:
-                        </div>
-
+                        <div class="ed-file-chip"><span class="file-icon">📄</span><span
+                                class="file-name">feature-prd.md</span><span class="file-badge">+68</span></div>
+                        <div class="ed-response-text">Drafted implementation steps in <span
+                                class="link-text">feature-prd.md</span>.<br />A few quick questions before I start
+                            building:</div>
                         <div class="ed-questions-card">
-                            <div class="ed-q-header">
-                                <span>Questions</span>
-                                <div class="q-nav">
-                                    <button class="q-arrow">‹</button>
-                                    <button class="q-arrow">›</button>
+                            <div class="ed-q-header"><span>Questions</span>
+                                <div class="q-nav"><button class="q-arrow">‹</button><button class="q-arrow">›</button>
                                 </div>
                             </div>
                             <div class="ed-q-title">How should Mission Control be triggered?</div>
@@ -139,23 +133,18 @@
                                     Cmd+F3)</div>
                                 <div class="ed-q-option"><span class="opt-num">3</span> Both keyboard and button</div>
                             </div>
-                            <div class="ed-q-actions">
-                                <button class="btn-skip">Skip</button>
-                                <button class="btn-continue">Continue</button>
-                            </div>
+                            <div class="ed-q-actions"><button class="btn-skip">Skip</button><button
+                                    class="btn-continue">Continue</button></div>
                         </div>
-
                         <div class="ed-followup">Add follow-up...</div>
                         <div class="ed-toolbar">
-                            <div class="ed-mode-btn">
-                                <span class="mode-icon">⊙</span> Plan <span class="chevron">▾</span>
-                            </div>
+                            <div class="ed-mode-btn"><span class="mode-icon">⊙</span> Plan <span
+                                    class="chevron">▾</span></div>
                             <div class="ed-composer">Composer 1.5 <span class="chevron">▾</span></div>
                             <button class="ed-send-btn">↑</button>
                         </div>
                     </div>
-
-                                        <div class="ed-doc">
+                    <div class="ed-doc">
                         <div class="ed-doc-tabs">
                             <div class="ed-tab active">feature-prd.md <span class="tab-close">×</span></div>
                             <div class="ed-tab">presence.ts</div>
@@ -174,18 +163,12 @@
                                 layout <span class="doc-highlight">animations</span> and <span
                                     class="doc-highlight">shared element transitions</span>.</p>
                             <div class="doc-task-count">3 tasks</div>
-                            <div class="doc-task-item">
-                                <span class="task-check-box"></span>
-                                <span>Add multiplayer mode to <span class="doc-link">useAppStore.ts</span></span>
-                            </div>
-                            <div class="doc-task-item">
-                                <span class="task-check-box"></span>
-                                <span>Create a new <span class="doc-link">MissionControlView.tsx</span> component</span>
-                            </div>
-                            <div class="doc-task-item">
-                                <span class="task-check-box"></span>
-                                <span>Update <span class="doc-link">AppManager.tsx</span> to apply exposé modes.</span>
-                            </div>
+                            <div class="doc-task-item"><span class="task-check-box"></span><span>Add multiplayer mode to
+                                    <span class="doc-link">useAppStore.ts</span></span></div>
+                            <div class="doc-task-item"><span class="task-check-box"></span><span>Create a new <span
+                                        class="doc-link">MissionControlView.tsx</span> component</span></div>
+                            <div class="doc-task-item"><span class="task-check-box"></span><span>Update <span
+                                        class="doc-link">AppManager.tsx</span> to apply exposé modes.</span></div>
                             <div class="doc-add-task">Add a task, ⌘K to generate...</div>
                         </div>
                     </div>
@@ -194,201 +177,243 @@
         </div>
     </section>
 
-        <section class="agentic-section">
-        <div class="agentic-inner">
-                        <div class="agentic-text">
-                <h2>Agents turn ideas into code</h2>
-                <p>Accelerate development by handing off tasks to Cursor, while you focus on making decisions.</p>
-                <a href="#" class="link-orange">Learn about agentic development →</a>
-            </div>
-
-                        <div class="agentic-editor-wrap">
-                <div class="agentic-editor-window">
-                    <div class="editor-chrome small">
-                        <div class="traffic-lights">
-                            <span class="tl red"></span>
-                            <span class="tl yellow"></span>
-                            <span class="tl green"></span>
-                        </div>
-                        <span class="editor-title-bar small">Cursor</span>
-                    </div>
-                    <div class="agentic-editor-body">
-                        <div class="ag-chat">
-                            <div class="ag-user-msg">
-                                let's build a mission control interface, similar to the exposé-style window manager on
-                                macOS
-                            </div>
-                            <div class="ag-status">Thought 4s</div>
-                            <div class="ag-action">Read <span class="link-text">AppManager.tsx</span></div>
-                            <div class="ag-action">Searched <span class="link-text">exposé patterns</span></div>
-                            <div class="ag-file-chip">
-                                <span class="file-icon">📄</span>
-                                <span class="file-name">feature-prd.md</span>
-                                <span class="file-badge">+68</span>
-                            </div>
-                            <div class="ag-response-text">
-                                Drafted implementation steps in <span class="link-text">feature-prd.md</span>.<br />
-                                A few quick questions before I start building:
-                            </div>
-                            <div class="ag-input-row">
-                                <span class="ag-placeholder">Plan, search, build anything...</span>
-                            </div>
-                            <div class="ag-toolbar">
-                                <div class="ag-mode">🤖 Agent <span class="chevron">▾</span></div>
-                                <div class="ag-composer">Composer 1.5 <span class="chevron">▾</span></div>
-                                <button class="ag-send">↑</button>
-                            </div>
-                        </div>
-                        <div class="ag-code">
-                            <div class="code-line"><span class="code-minus">-</span> <span
-                                    class="code-var">missing</span> = {'{feature_col, user_col}'} &nbsp;<span
-                                    class="code-fn">set(events.columns)</span></div>
-                            <div class="code-line"><span>&nbsp;</span> <span class="code-kw">if</span> <span
-                                    class="code-var">missing:</span></div>
-                            <div class="code-line indent"><span class="code-kw">raise</span> <span
-                                    class="code-fn">ValueError</span>(<span class="code-str">f"Missing required columns:
-                                    {'{sorted(miss'}</span></div>
-                            <div class="code-line">&nbsp;</div>
-                            <div class="code-line"><span class="code-var">grouped</span> = {`{`}</div>
-                            <div class="code-line indent">events.<span class="code-fn">groupby</span>(<span
-                                    class="code-var">feature_col</span>)</div>
-                            <div class="code-line indent">.<span class="code-fn">agg</span>(events=(<span
-                                    class="code-var">feature_col</span>, <span class="code-str">"size"</span>),
-                                unique_users=(<span class="code-var">user_col</span>,</div>
-                            <div class="code-line indent">.<span class="code-fn">reset_index</span>()</div>
-                            <div class="code-line">{`}`}</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-        <section class="trusted-section">
+    <section class="trusted-section">
         <p class="trusted-label">Trusted every day by teams that build world-class software</p>
         <div class="trusted-logos">
-            <div class="logo-card"><span class="logo-brand stripe">stripe</span></div>
+            <div class="logo-card"><span class="logo-brand logo-stripe">stripe</span></div>
             <div class="logo-card"><span class="logo-brand">OpenAI</span></div>
-            <div class="logo-card">
-                <span class="logo-brand linear">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="8" cy="8" r="7" fill="white" opacity="0.9" />
-                        <path d="M4 8 L8 4 L12 8 L8 12 Z" fill="#1a1a1a" />
+            <div class="logo-card"><span class="logo-brand logo-linear">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                        <path d="M1 8.5L8.5 1L15 7.5L7.5 15L1 8.5Z" fill="white" />
+                    </svg>Linear
+                </span></div>
+            <div class="logo-card"><span class="logo-brand logo-datadog">
+                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                        <rect width="20" height="20" rx="4" fill="#7046bc" /><text x="4" y="15" font-size="12"
+                            fill="white" font-weight="800">D</text>
+                    </svg>DATADOG
+                </span></div>
+            <div class="logo-card"><span class="logo-brand logo-nvidia">
+                    <svg width="52" height="14" viewBox="0 0 80 20" fill="none">
+                        <rect width="80" height="20" rx="2" fill="#76b900" /><text x="4" y="15" font-size="13"
+                            fill="white" font-weight="900" font-family="Arial">NVIDIA</text>
                     </svg>
-                    Linear
-                </span>
-            </div>
-            <div class="logo-card">
-                <span class="logo-brand datadog">
-                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                        <rect width="18" height="18" rx="3" fill="#632CA6" /><text x="2" y="13" font-size="9"
-                            fill="white" font-weight="bold">D</text>
-                    </svg>
-                    DATADOG
-                </span>
-            </div>
-            <div class="logo-card">
-                <span class="logo-brand nvidia">
-                    <svg width="20" height="12" viewBox="0 0 60 30" fill="none">
-                        <path d="M0 10 L15 0 L60 0 L60 30 L0 30 Z" fill="#76B900" /><text x="2" y="22" font-size="14"
-                            fill="white" font-weight="bold">NVIDIA</text>
-                    </svg>
-                </span>
-            </div>
+                </span></div>
             <div class="logo-card"><span class="logo-brand">Figma</span></div>
             <div class="logo-card"><span class="logo-brand">ramp ↗</span></div>
-            <div class="logo-card"><span class="logo-brand adobe"><em>Adobe</em></span></div>
+            <div class="logo-card"><span class="logo-brand logo-adobe"><em>Adobe</em></span></div>
         </div>
     </section>
 
-        <section class="feature2-section">
-        <div class="feature2-inner">
-                        <div class="feature2-editor-wrap">
-                <div class="editor-window small-ed">
-                    <div class="editor-chrome">
-                        <div class="traffic-lights">
-                            <span class="tl red"></span>
-                            <span class="tl yellow"></span>
-                            <span class="tl green"></span>
-                        </div>
-                        <span class="editor-title-bar">Cursor</span>
+    <section class="features-section">
+        <div class="feature-row">
+            <div class="feature-text">
+                <span class="feature-tag">Agents</span>
+                <h2 class="feature-heading">Agents turn ideas into code</h2>
+                <p class="feature-desc">Accelerate development by handing off tasks to Cursor, while you focus on making
+                    decisions.</p>
+                <a href="#" class="feature-link">Learn about agentic development →</a>
+            </div>
+            <div class="feature-visual">
+                <div class="mini-editor">
+                    <div class="mini-editor-chrome">
+                        <span class="tl red"></span><span class="tl yellow"></span><span class="tl green"></span>
+                        <span class="mini-title">Cursor</span>
                     </div>
-                    <div class="editor-body f2-body">
-                        <div class="ed-sidebar slim">
-                            <div class="ed-section-label">IN PROGRESS 1</div>
-                            <div class="ed-task-item small">
-                                <span class="task-icon spin">⟳</span>
-                                <div>
-                                    <div class="task-title">Analyze Tab vs Agent Usage P...</div>
-                                    <div class="task-sub">Fetching data</div>
-                                </div>
-                            </div>
-                            <div class="ed-section-label mt8">READY FOR REVIEW 5</div>
-                            <div class="ed-task-item small">
-                                <span class="task-icon check">✓</span>
-                                <div class="task-title">Build Landing Page <span class="tag-now">now</span></div>
-                            </div>
-                            <div class="ed-task-item small">
-                                <span class="task-icon check">✓</span>
-                                <div class="task-title">Plan Mission Control <span class="tag-now">now</span></div>
-                            </div>
-                            <div class="ed-task-item small">
-                                <span class="task-icon check">✓</span>
-                                <div class="task-title">PyTorch MNIST Experim... <span class="tag-time">10m</span></div>
-                            </div>
-                            <div class="ed-task-item small">
-                                <span class="task-icon check">✓</span>
-                                <div class="task-title">Set up Cursor Rules for ... <span class="tag-time">30m</span>
-                                </div>
-                            </div>
-                            <div class="ed-task-item small">
-                                <span class="task-icon check">✓</span>
-                                <div class="task-title">Bioinformatics Tools <span class="tag-time">45m</span></div>
+                    <div class="mini-editor-body">
+                        <div class="mini-chat">
+                            <div class="mini-msg">let's build a mission control interface, similar to the exposé-style
+                                window manager on macOS</div>
+                            <div class="mini-status"><span class="status-dot"></span> Thought 4s</div>
+                            <div class="mini-action">Read <span class="link-text">AppManager.tsx</span></div>
+                            <div class="mini-action">Searched <span class="link-text">exposé patterns</span></div>
+                            <div class="mini-file-chip"><span>📄</span> feature-prd.md <span
+                                    class="file-badge">+68</span></div>
+                            <div class="mini-response">Drafted implementation steps in <span
+                                    class="link-text">feature-prd.md</span>.<br />A few quick questions before I start
+                                building:</div>
+                            <div class="mini-input-area"><span class="mini-placeholder">Plan, search, build
+                                    anything...</span></div>
+                            <div class="mini-toolbar">
+                                <span class="mini-mode">🤖 Agent ▾</span>
+                                <span class="mini-comp">Composer 1.5 ▾</span>
+                                <span class="mini-send">↑</span>
                             </div>
                         </div>
-                        <div class="ed-chat slim">
-                            <div class="ed-chat-header">Plan Mission Control</div>
-                            <div class="ed-user-msg">
-                                let's build a mission control interface, similar to the exposé-style window manager on
-                                macOS
-                            </div>
-                            <div class="ed-status-line"><span class="status-dot"></span>Thought 4s</div>
-                            <div class="ed-action">Read <span class="link-text">AppManager.tsx</span></div>
-                            <div class="ed-action">Searched <span class="link-text">exposé patterns</span></div>
-                            <div class="ed-file-chip">
-                                <span class="file-icon">📄</span>
-                                <span class="file-name">feature-prd.md</span>
-                                <span class="file-badge">+68</span>
-                            </div>
-                            <div class="ed-response-text">
-                                Drafted implementation steps in <span class="link-text">feature-prd.md</span>.<br />
-                                A few quick questions before I start building:
-                            </div>
-                            <div class="ed-questions-card mini">
-                                <div class="ed-q-title sm">How should Mission Control be triggered?</div>
-                            </div>
+                        <div class="mini-code">
+                            <div class="cl"><span class="cm">-</span> <span class="cv">missing</span> = {'{feature_col,
+                                user_col}'}<span class="cf"> set(events.columns)</span></div>
+                            <div class="cl"><span class="ck">if</span> <span class="cv">missing:</span></div>
+                            <div class="cl indent"><span class="ck">raise</span> <span
+                                    class="cf">ValueError</span>(<span class="cs">f"Missing required columns:
+                                    ...</span>)</div>
+                            <div class="cl">&nbsp;</div>
+                            <div class="cl"><span class="cv">grouped</span> = {'{'}</div>
+                            <div class="cl indent">events.<span class="cf">groupby</span>(<span
+                                    class="cv">feature_col</span>)</div>
+                            <div class="cl indent">.<span class="cf">agg</span>(events=(<span
+                                    class="cv">feature_col</span>, <span class="cs">"size"</span>), unique_users=(<span
+                                    class="cv">user_col</span>,))</div>
+                            <div class="cl indent">.<span class="cf">reset_index</span>()</div>
+                            <div class="cl">{'}'}</div>
                         </div>
-                        <div class="ed-doc slim">
-                            <div class="ed-doc-tabs">
-                                <div class="ed-tab active">feature-prd.md <span class="tab-close">×</span></div>
-                                <div class="ed-tab">presence.ts</div>
-                            </div>
-                            <div class="ed-breadcrumb">Plans › feature-prd.md <span class="composer-badge">Composer 1.5
-                                    ▾</span> <span class="build-badge">Build</span></div>
-                            <div class="ed-doc-content slim-doc">
-                                <h2 class="doc-h1">Mission Control Interface</h2>
-                                <p class="doc-p sm">A grid view of <span class="doc-highlight">all</span> open windows
-                                    as scaled previews, allowing <span class="doc-highlight">quick</span> selection to
-                                    bring any window to front.</p>
-                                <h3 class="doc-h2">Trigger</h3>
-                                <p class="doc-p sm">Menu item in <span class="doc-highlight">MenuBar.tsx</span> (View ›
-                                    Mission Control), hotkey F3, or double-tap desktop.</p>
-                                <h3 class="doc-h2">View Behavior</h3>
-                                <p class="doc-p sm">Overlay existing windows into a grid of live previews with
-                                    spring-based <span class="doc-highlight">layout animations</span> and <span
-                                        class="doc-highlight">shared element transitions</span>.</p>
-                                <div class="doc-task-count">3 tasks</div>
-                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feature-row reverse">
+            <div class="feature-text">
+                <span class="feature-tag">Tab</span>
+                <h2 class="feature-heading">The most powerful autocomplete</h2>
+                <p class="feature-desc">Cursor predicts your next edit, learning your coding patterns and suggesting
+                    multi-line completions exactly when you need them.</p>
+                <a href="#" class="feature-link">Learn about Tab →</a>
+            </div>
+            <div class="feature-visual">
+                <div class="code-preview-card">
+                    <div class="code-preview-header">
+                        <span class="cp-dot red"></span><span class="cp-dot yellow"></span><span
+                            class="cp-dot green"></span>
+                        <span class="cp-filename">utils.ts</span>
+                    </div>
+                    <div class="code-preview-body">
+                        <div class="cp-line"><span class="ck">function</span> <span class="cf">calculateTax</span>(<span
+                                class="cv">amount</span>: <span class="ct">number</span>, <span class="cv">rate</span>:
+                            <span class="ct">number</span>) {'{'}</div>
+                        <div class="cp-line indent"><span class="ck">const</span> <span class="cv">tax</span> = <span
+                                class="cv">amount</span> * <span class="cv">rate</span>;</div>
+                        <div class="cp-line indent cp-suggestion"><span class="ck">return</span> {'{'} <span
+                                class="cv">tax</span>, <span class="cv">total</span>: <span class="cv">amount</span> +
+                            <span class="cv">tax</span>, <span class="cv">formatted</span>: <span
+                                class="cf">formatCurrency</span>(<span class="cv">amount</span> + <span
+                                class="cv">tax</span>) {'}'}</div>
+                        <div class="cp-line">{'}'}</div>
+                        <div class="cp-tab-hint">Tab ↹ to accept</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feature-row">
+            <div class="feature-text">
+                <span class="feature-tag">Chat</span>
+                <h2 class="feature-heading">Chat with your entire codebase</h2>
+                <p class="feature-desc">Ask questions about your code, get explanations, request changes across multiple
+                    files, and have Cursor apply edits directly.</p>
+                <a href="#" class="feature-link">Learn about Chat →</a>
+            </div>
+            <div class="feature-visual">
+                <div class="chat-card">
+                    <div class="chat-msg user">How does the auth middleware work?</div>
+                    <div class="chat-msg assistant">
+                        <div class="chat-avatar">AI</div>
+                        <div class="chat-bubble">
+                            The auth middleware in <span class="link-text">middleware/auth.ts</span> validates JWT
+                            tokens on every request. It:<br /><br />
+                            1. Extracts the Bearer token from the Authorization header<br />
+                            2. Verifies it against the secret using <span class="link-text">jsonwebtoken</span><br />
+                            3. Attaches the decoded user to <code>req.user</code>
+                        </div>
+                    </div>
+                    <div class="chat-sources">
+                        <span class="chat-source-chip">📄 middleware/auth.ts</span>
+                        <span class="chat-source-chip">📄 types/user.ts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-section">
+        <div class="cards-section-inner">
+            <h2 class="cards-heading">Everything you need to ship faster</h2>
+            <p class="cards-sub">Cursor brings together the best AI models with deep code understanding to supercharge
+                your workflow.</p>
+            <div class="cards-grid">
+                <div class="feature-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Instant suggestions and completions that keep up with your thinking, never slowing you down.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🧠</div>
+                    <h3>Context Aware</h3>
+                    <p>Understands your entire codebase, dependencies, docs, and custom rules for pinpoint accuracy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Privacy First</h3>
+                    <p>SOC 2 certified. Code is never stored or trained on. Enterprise-grade privacy controls.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🌐</div>
+                    <h3>Multi-Model</h3>
+                    <p>Switch between GPT-4o, Claude 3.5, and Gemini. Always using the best model for the task.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🔧</div>
+                    <h3>Inline Editing</h3>
+                    <p>Select any code and ask Cursor to refactor, fix bugs, or add features in place.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">📂</div>
+                    <h3>Multi-file Edits</h3>
+                    <p>Agents can autonomously edit across dozens of files to complete complex tasks end-to-end.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="testimonials-inner">
+            <h2 class="testimonials-heading">Loved by developers worldwide</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-quote">"Cursor has completely changed how I write code. The AI suggestions are so
+                        accurate it feels like it reads my mind. I've doubled my productivity."</p>
+                    <div class="tcard-author">
+                        <div class="tcard-avatar">JR</div>
+                        <div>
+                            <div class="tcard-name">Jake Roberts</div>
+                            <div class="tcard-role">Senior Engineer, Stripe</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-quote">"We migrated our entire team to Cursor 3 months ago. Code review time is down
+                        40% and onboarding new engineers is so much faster."</p>
+                    <div class="tcard-author">
+                        <div class="tcard-avatar">AL</div>
+                        <div>
+                            <div class="tcard-name">Aisha Lin</div>
+                            <div class="tcard-role">Engineering Lead, Linear</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-quote">"The agentic features are a game-changer. I can describe a feature in plain
+                        English and Cursor implements it across my entire codebase."</p>
+                    <div class="tcard-author">
+                        <div class="tcard-avatar">MP</div>
+                        <div>
+                            <div class="tcard-name">Marcus Park</div>
+                            <div class="tcard-role">CTO, Founding startup</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-quote">"Tab completions feel magical. It anticipates exactly where I'm going and
+                        fills in complex logic I'd spend 10 minutes writing manually."</p>
+                    <div class="tcard-author">
+                        <div class="tcard-avatar">SR</div>
+                        <div>
+                            <div class="tcard-name">Sofia Rivera</div>
+                            <div class="tcard-role">Full Stack Developer</div>
                         </div>
                     </div>
                 </div>
@@ -396,12 +421,167 @@
         </div>
     </section>
 
-        <section class="try-section">
-        <h2 class="try-title">Try Cursor now.</h2>
-        <a href="#" class="btn-download-hero">Download for Windows ⬇</a>
+    <section class="usecases-section">
+        <div class="usecases-inner">
+            <h2 class="usecases-heading">Built for every type of developer</h2>
+            <div class="usecases-tabs">
+                <button class="uc-tab active">Frontend</button>
+                <button class="uc-tab">Backend</button>
+                <button class="uc-tab">Data Science</button>
+                <button class="uc-tab">DevOps</button>
+                <button class="uc-tab">Mobile</button>
+            </div>
+            <div class="usecases-content">
+                <div class="uc-panel active">
+                    <div class="uc-text">
+                        <h3>Ship beautiful UIs faster</h3>
+                        <p>Cursor understands React, Vue, Svelte, and every modern framework. Generate components, fix
+                            styling issues, and refactor with AI that knows your design system.</p>
+                        <ul class="uc-list">
+                            <li>✓ Component generation from designs</li>
+                            <li>✓ CSS & Tailwind expert suggestions</li>
+                            <li>✓ Accessibility fixes &amp; best practices</li>
+                            <li>✓ Animation &amp; interaction code</li>
+                        </ul>
+                    </div>
+                    <div class="uc-code">
+                        <div class="uc-code-header"><span class="tl red"></span><span class="tl yellow"></span><span
+                                class="tl green"></span><span class="uc-code-filename">Button.tsx</span></div>
+                        <div class="uc-code-body">
+                            <div class="cl"><span class="ck">export function</span> <span class="cf">Button</span>({'{'}
+                                variant, children, onClick {'}'}) {'{'}</div>
+                            <div class="cl indent"><span class="ck">return</span> (</div>
+                            <div class="cl indent2">&lt;<span class="cv">button</span></div>
+                            <div class="cl indent3"><span class="cv">className</span>={`{cn("px-4 py-2 rounded-lg
+                                font-medium", {`}</div>
+                            <div class="cl indent4"><span class="cs">"bg-blue-600 text-white"</span>: variant === <span
+                                    class="cs">"primary"</span>,</div>
+                            <div class="cl indent4"><span class="cs">"bg-zinc-800 text-zinc-200"</span>: variant ===
+                                <span class="cs">"ghost"</span>,</div>
+                            <div class="cl indent3">{`})}`}</div>
+                            <div class="cl indent3"><span class="cv">onClick</span>={'{onClick}'}</div>
+                            <div class="cl indent2">&gt;</div>
+                            <div class="cl indent3">{'{'}<span class="cv">children</span>{'}'}</div>
+                            <div class="cl indent2">&lt;/<span class="cv">button</span>&gt;</div>
+                            <div class="cl indent">)</div>
+                            <div class="cl">{'}'}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-        <footer class="footer">
+    <section class="changelog-section">
+        <div class="changelog-inner">
+            <div class="changelog-header">
+                <h2>Latest updates</h2>
+                <a href="#" class="link-orange">View full changelog →</a>
+            </div>
+            <div class="changelog-list">
+                <div class="changelog-item">
+                    <div class="changelog-date">Feb 2026</div>
+                    <div class="changelog-content">
+                        <span class="changelog-badge new">New</span>
+                        <h4>Cloud Agents — run agents in the background</h4>
+                        <p>Kick off long-running tasks and let Cursor work while you focus on other things. Agents run
+                            in parallel, reporting back when done.</p>
+                    </div>
+                </div>
+                <div class="changelog-item">
+                    <div class="changelog-date">Jan 2026</div>
+                    <div class="changelog-content">
+                        <span class="changelog-badge improved">Improved</span>
+                        <h4>Smarter Tab predictions with GPT-4o mini</h4>
+                        <p>Tab completions are now 3× faster and significantly more accurate, especially for multi-line
+                            edits and refactors.</p>
+                    </div>
+                </div>
+                <div class="changelog-item">
+                    <div class="changelog-date">Dec 2025</div>
+                    <div class="changelog-content">
+                        <span class="changelog-badge new">New</span>
+                        <h4>Composer 1.5 — multi-file agent workflows</h4>
+                        <p>Composer now understands your entire project graph and can orchestrate complex changes across
+                            dozens of files.</p>
+                    </div>
+                </div>
+                <div class="changelog-item">
+                    <div class="changelog-date">Nov 2025</div>
+                    <div class="changelog-content">
+                        <span class="changelog-badge improved">Improved</span>
+                        <h4>Enterprise SSO &amp; audit logs</h4>
+                        <p>Full SAML/OIDC SSO support, granular permission controls, and detailed audit logs for
+                            compliance-critical teams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="team-inner">
+            <div class="team-text">
+                <h2>Built by a world-class team</h2>
+                <p>Cursor is made by <a href="#" class="link-orange">Anysphere</a>, a company dedicated to building
+                    powerful, safe AI tools for software development.</p>
+                <p>Our team brings together researchers and engineers from MIT, Stanford, OpenAI, Google DeepMind, and
+                    top engineering companies — united by a mission to make every developer extraordinarily productive.
+                </p>
+                <div class="team-stats">
+                    <div class="stat-item">
+                        <div class="stat-num">4M+</div>
+                        <div class="stat-label">Developers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">100K+</div>
+                        <div class="stat-label">Companies</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">SOC 2</div>
+                        <div class="stat-label">Certified</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-cards">
+                <div class="team-member">
+                    <div class="member-avatar">MS</div>
+                    <div class="member-name">Michael Shen</div>
+                    <div class="member-role">Co-Founder &amp; CEO</div>
+                    <div class="member-bg">MIT · Quora</div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">AK</div>
+                    <div class="member-name">Arvid Lunnemark</div>
+                    <div class="member-role">Co-Founder &amp; CTO</div>
+                    <div class="member-bg">MIT · Anduril</div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">SN</div>
+                    <div class="member-name">Sualeh Asif</div>
+                    <div class="member-role">Co-Founder</div>
+                    <div class="member-bg">MIT · Scale AI</div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">AT</div>
+                    <div class="member-name">Aman Sanger</div>
+                    <div class="member-role">Co-Founder</div>
+                    <div class="member-bg">MIT · Benchling</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2 class="cta-title">Try Cursor now.</h2>
+        <a href="#" class="btn-download-hero">Download for Windows ↓</a>
+    </section>
+
+    <footer class="footer">
         <div class="footer-inner">
             <div class="footer-col">
                 <div class="footer-heading">Product</div>
@@ -448,11 +628,11 @@
         </div>
         <div class="footer-bottom">
             <span>© 2026 Anysphere, Inc.</span>
-            <span class="footer-soc">🔒 SOC 2 Certified</span>
+            <span>🔒 SOC 2 Certified</span>
             <div class="footer-right">
-                <button class="theme-btn active" title="Desktop">🖥</button>
-                <button class="theme-btn" title="Light">☀</button>
-                <button class="theme-btn" title="Dark">🌙</button>
+                <button class="theme-btn active">🖥</button>
+                <button class="theme-btn">☀</button>
+                <button class="theme-btn">🌙</button>
                 <select class="lang-select">
                     <option>🌐 English</option>
                 </select>
@@ -460,6 +640,17 @@
         </div>
     </footer>
 
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+        document.querySelectorAll('.uc-tab').forEach(function (tab, idx) {
+            tab.addEventListener('click', function () {
+                document.querySelectorAll('.uc-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
